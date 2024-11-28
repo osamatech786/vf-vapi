@@ -43,9 +43,15 @@ Save the ngrok forwarding url for next step to update the Custom LLM endpoint in
 
 ![Ngrok](./doc/ngrok.png)
 
+#### install dependencies
+
+``` bash
+npm install
+```
 #### Setup the integration
 
 ``` bash
+npm install
 npm run setup
 ```
 
@@ -100,3 +106,5 @@ On VAPI, select the assistant you've just created and click on the **Talk** butt
 <a href="https://trackgit.com">
 <img src="https://api.swetrix.com/log/noscript?pid=fnSZorwAce9B" alt="" referrerpolicy="no-referrer-when-downgrade" />
 </a>
+
+YT: https://www.youtube.com/watch?v=dayOZyRQ4g4&t=4s&ab_channel=Voiceflow
