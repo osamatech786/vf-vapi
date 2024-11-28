@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
   res.send({ message: 'VF | VAPI Custom LLM Endpoint' })
 })
 
-app.use('/api', router)
+app.use('/', router)
 
 export function startServer() {
   app.listen(port, host, () => {
