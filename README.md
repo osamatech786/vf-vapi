@@ -51,7 +51,6 @@ npm install
 #### Setup the integration
 
 ``` bash
-npm install
 npm run setup
 ```
 
